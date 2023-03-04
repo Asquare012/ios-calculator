@@ -5,8 +5,12 @@
   font-family: cursive;
 }
 
+html {
+  min-height: -webkit-fill-available;
+}
+
 body {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,14 +72,14 @@ body {
 #container form #buttons input[type=button]:first-child:active, #container form #buttons input[type=button]:nth-child(2):active, #container form #buttons input[type=button]:nth-child(3):active {
   background-color: #221d1d;
 }
-#container form #buttons input[type=button]:nth-child(4), #container form #buttons input[type=button]:nth-child(8), #container form #buttons input[type=button]:nth-child(12), #container form #buttons input[type=button]:nth-child(16), #container form #buttons input[type=button]:nth-child(20) {
+#container form #buttons input[type=button]:nth-child(4), #container form #buttons input[type=button]:nth-child(8), #container form #buttons input[type=button]:nth-child(12), #container form #buttons input[type=button]:nth-child(16), #container form #buttons input[type=button]:nth-child(19) {
   background-color: #ff9f0a;
   color: #ffffff;
 }
-#container form #buttons input[type=button]:nth-child(4):hover, #container form #buttons input[type=button]:nth-child(8):hover, #container form #buttons input[type=button]:nth-child(12):hover, #container form #buttons input[type=button]:nth-child(16):hover, #container form #buttons input[type=button]:nth-child(20):hover {
+#container form #buttons input[type=button]:nth-child(4):hover, #container form #buttons input[type=button]:nth-child(8):hover, #container form #buttons input[type=button]:nth-child(12):hover, #container form #buttons input[type=button]:nth-child(16):hover, #container form #buttons input[type=button]:nth-child(19):hover {
   background-color: #1f2701;
 }
-#container form #buttons input[type=button]:nth-child(4):active, #container form #buttons input[type=button]:nth-child(8):active, #container form #buttons input[type=button]:nth-child(12):active, #container form #buttons input[type=button]:nth-child(16):active, #container form #buttons input[type=button]:nth-child(20):active {
+#container form #buttons input[type=button]:nth-child(4):active, #container form #buttons input[type=button]:nth-child(8):active, #container form #buttons input[type=button]:nth-child(12):active, #container form #buttons input[type=button]:nth-child(16):active, #container form #buttons input[type=button]:nth-child(19):active {
   background-color: #887d7d;
 }
 #container form #buttons input[type=button]:nth-child(5), #container form #buttons input[type=button]:nth-child(6), #container form #buttons input[type=button]:nth-child(7), #container form #buttons input[type=button]:nth-child(9), #container form #buttons input[type=button]:nth-child(10), #container form #buttons input[type=button]:nth-child(11), #container form #buttons input[type=button]:nth-child(13), #container form #buttons input[type=button]:nth-child(14), #container form #buttons input[type=button]:nth-child(15), #container form #buttons input[type=button]:nth-child(17), #container form #buttons input[type=button]:nth-child(18), #container form #buttons input[type=button]:nth-child(19) {
