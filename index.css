@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ body {
 
 #container {
   width: 100%;
-  height: 100dvh;
+  height: 100%;
   background-color: #000000;
 }
 #container form {
@@ -75,6 +75,8 @@ body {
 #container form #buttons input[type=button]:nth-child(4), #container form #buttons input[type=button]:nth-child(8), #container form #buttons input[type=button]:nth-child(12), #container form #buttons input[type=button]:nth-child(16), #container form #buttons input[type=button]:nth-child(19) {
   background-color: #ff9f0a;
   color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
 }
 #container form #buttons input[type=button]:nth-child(4):hover, #container form #buttons input[type=button]:nth-child(8):hover, #container form #buttons input[type=button]:nth-child(12):hover, #container form #buttons input[type=button]:nth-child(16):hover, #container form #buttons input[type=button]:nth-child(19):hover {
   background-color: #1f2701;
@@ -82,14 +84,14 @@ body {
 #container form #buttons input[type=button]:nth-child(4):active, #container form #buttons input[type=button]:nth-child(8):active, #container form #buttons input[type=button]:nth-child(12):active, #container form #buttons input[type=button]:nth-child(16):active, #container form #buttons input[type=button]:nth-child(19):active {
   background-color: #887d7d;
 }
-#container form #buttons input[type=button]:nth-child(5), #container form #buttons input[type=button]:nth-child(6), #container form #buttons input[type=button]:nth-child(7), #container form #buttons input[type=button]:nth-child(9), #container form #buttons input[type=button]:nth-child(10), #container form #buttons input[type=button]:nth-child(11), #container form #buttons input[type=button]:nth-child(13), #container form #buttons input[type=button]:nth-child(14), #container form #buttons input[type=button]:nth-child(15), #container form #buttons input[type=button]:nth-child(17), #container form #buttons input[type=button]:nth-child(18), #container form #buttons input[type=button]:nth-child(19) {
+#container form #buttons input[type=button]:nth-child(5), #container form #buttons input[type=button]:nth-child(6), #container form #buttons input[type=button]:nth-child(7), #container form #buttons input[type=button]:nth-child(9), #container form #buttons input[type=button]:nth-child(10), #container form #buttons input[type=button]:nth-child(11), #container form #buttons input[type=button]:nth-child(13), #container form #buttons input[type=button]:nth-child(14), #container form #buttons input[type=button]:nth-child(15), #container form #buttons input[type=button]:nth-child(17), #container form #buttons input[type=button]:nth-child(18) {
   background-color: #333333;
   color: #ffffff;
 }
-#container form #buttons input[type=button]:nth-child(5):hover, #container form #buttons input[type=button]:nth-child(6):hover, #container form #buttons input[type=button]:nth-child(7):hover, #container form #buttons input[type=button]:nth-child(9):hover, #container form #buttons input[type=button]:nth-child(10):hover, #container form #buttons input[type=button]:nth-child(11):hover, #container form #buttons input[type=button]:nth-child(13):hover, #container form #buttons input[type=button]:nth-child(14):hover, #container form #buttons input[type=button]:nth-child(15):hover, #container form #buttons input[type=button]:nth-child(17):hover, #container form #buttons input[type=button]:nth-child(18):hover, #container form #buttons input[type=button]:nth-child(19):hover {
+#container form #buttons input[type=button]:nth-child(5):hover, #container form #buttons input[type=button]:nth-child(6):hover, #container form #buttons input[type=button]:nth-child(7):hover, #container form #buttons input[type=button]:nth-child(9):hover, #container form #buttons input[type=button]:nth-child(10):hover, #container form #buttons input[type=button]:nth-child(11):hover, #container form #buttons input[type=button]:nth-child(13):hover, #container form #buttons input[type=button]:nth-child(14):hover, #container form #buttons input[type=button]:nth-child(15):hover, #container form #buttons input[type=button]:nth-child(17):hover, #container form #buttons input[type=button]:nth-child(18):hover {
   background-color: #746969;
 }
-#container form #buttons input[type=button]:nth-child(5):active, #container form #buttons input[type=button]:nth-child(6):active, #container form #buttons input[type=button]:nth-child(7):active, #container form #buttons input[type=button]:nth-child(9):active, #container form #buttons input[type=button]:nth-child(10):active, #container form #buttons input[type=button]:nth-child(11):active, #container form #buttons input[type=button]:nth-child(13):active, #container form #buttons input[type=button]:nth-child(14):active, #container form #buttons input[type=button]:nth-child(15):active, #container form #buttons input[type=button]:nth-child(17):active, #container form #buttons input[type=button]:nth-child(18):active, #container form #buttons input[type=button]:nth-child(19):active {
+#container form #buttons input[type=button]:nth-child(5):active, #container form #buttons input[type=button]:nth-child(6):active, #container form #buttons input[type=button]:nth-child(7):active, #container form #buttons input[type=button]:nth-child(9):active, #container form #buttons input[type=button]:nth-child(10):active, #container form #buttons input[type=button]:nth-child(11):active, #container form #buttons input[type=button]:nth-child(13):active, #container form #buttons input[type=button]:nth-child(14):active, #container form #buttons input[type=button]:nth-child(15):active, #container form #buttons input[type=button]:nth-child(17):active, #container form #buttons input[type=button]:nth-child(18):active {
   background-color: #aaa6a6;
 }
 #container form #buttons input[type=button]:nth-child(17) {
