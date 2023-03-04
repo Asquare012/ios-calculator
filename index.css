@@ -6,11 +6,12 @@
 }
 
 html {
-  min-height: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 body {
-  height: 100dvh;
+  height: 100vh;
+  height: -webkit-fill-available;
   display: flex;
   justify-content: center;
   align-items: center;
